@@ -1,9 +1,16 @@
 
-!SLIDE chapter ==========================================
+!SLIDE cover ==========================================
 
 ![](../AngularJS-large.png)
-### Meetup ngParis
+### Meetup ngParis - 21 octobre 2013
+
+<br/>
+
 ## Bon usage des services
+
+<br/><br/>
+<p class="right big">Thierry Chatel</p>
+
 
 
 !SLIDE ===================================================

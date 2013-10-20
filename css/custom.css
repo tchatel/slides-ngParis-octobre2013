@@ -58,3 +58,13 @@ div.slide.back img {
     color: #000;
     text-shadow:  2px 2px #fff, -2px -2px #333;
 }
+
+.slide.cover h2 {
+    color: #800;
+}
+.slide.cover h3 {
+    color: #088;
+}
+.slide.cover p {
+    color: #357;
+}

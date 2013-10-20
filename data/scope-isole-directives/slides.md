@@ -1,11 +1,16 @@
 
-!SLIDE chapter ==========================================
+!SLIDE cover ==========================================
 
 ![](../AngularJS-large.png)
-### Meetup ngParis
+### Meetup ngParis - 21 octobre 2013
+
+<br/>
+
 ## Attributs et scopes isolés
 ## dans les directives
 
+<br/><br/>
+<p class="right big">Thierry Chatel</p>
 
 !SLIDE ===================================================
 
@@ -192,6 +197,46 @@
 
 * pas de {{...}} dans l'attribut
 * propriété : fonction
-* surcharger des valeurs du scope : `scope.action({user: previousUser})`
+* surcharger des données du scope : `scope.action({user: previousUser})`
+
+
+
+!SLIDE subsection ===================================================
+
+# et sans scope isolé ?
+
+!SLIDE big ===================================================
+
+    link: function (scope, element, attrs, ctrl) {
+        ...
+    }
+
+!SLIDE bullets ===================================================
+
+# attribut texte (<span class="bigger red">@</span>)
+
+* `attrs.xxx`
+* `attrs.$observe('xxx', function(value) {...})`
+
+!SLIDE bullets ===================================================
+
+# expression valeur (<span class="bigger red">=</span>)
+
+* `scope.$watch(attrs.xxx, function(newVal, oldVal) {...})`
+* `$parse(attrs.xxx).assign(scope, value)`
+
+!SLIDE bullets ===================================================
+
+# expression action (<span class="bigger red">&</span>)
+
+* `$parse(attrs.xxx)(scope, locals)`
+
+
+
+!SLIDE subsection small ===================================================
+
+# démo :
+# widget Google Maps
+
 
 
