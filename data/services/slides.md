@@ -4,9 +4,9 @@
 ![](../AngularJS-large.png)
 ### Meetup ngParis - 21 octobre 2013
 
-<br/>
+<br/><br/>
 
-## Bon usage des services
+## Usage des services
 
 <br/><br/>
 <p class="right big">Thierry Chatel</p>
@@ -64,7 +64,8 @@
 
 !SLIDE ===================================================
 
-# isoler chaque fonctionnalité
+# <span class="big">isoler</span>
+# chaque fonctionnalité
 
 !SLIDE image ===================================================
 
@@ -157,7 +158,7 @@ TODO
 ## Jamais de logique ou de
 ## règle métier dans les
 ## contrôleurs et les vues.
-### A faire dans un service.
+### Faire un service.
 
 !SLIDE regle ===================================================
 
@@ -205,11 +206,12 @@ TODO
 !SLIDE big ===================================================
 
 ## On ne le fait pas.
-### Les deux contrôleurs utilisent le même service.
+### Les deux contrôleurs utilisent
+### le même service.
 
 
 
-!SLIDE subsection ===================================================
+!SLIDE subsection small ===================================================
 
 # Exemple 1 : cache des critères de recherche
 
@@ -278,13 +280,28 @@ TODO
 
 !SLIDE subsection ============================================
 
-# Exemple 3 : erreurs et notifications
+# Exemple 3 : entités persistentes
+
+!SLIDE ============================================
+
+# pattern Repository
+# ou pattern Active Record
+
+!NOTES -----------------------------------------------------
+
+TODO et aussi EntityHome ?
+
+
+
+!SLIDE subsection ============================================
+
+# Exemple 4 : erreurs et notifications
 
 !SLIDE bullets ===================================================
 
 * service `'notifications'`
 * service `'errors'`
-* service `'$exceptionHandler'` surchargé
+* service `'$exceptionHandler'` <span class="small">surchargé</span>
 * intercepteur $http
 
 !SLIDE bullets ===================================================
@@ -303,25 +320,14 @@ TODO
 
 
 
-!SLIDE subsection ============================================
-
-# Exemple 4 : entités persistentes
-
-!SLIDE ============================================
-
-# pattern Repository
-# ou pattern Active Record
-
-!NOTES -----------------------------------------------------
-
-TODO
-
-
-
 !SLIDE ===================================================
 
 ![](shadoks.jpg)
 
+
+!SLIDE subsection ============================================
+
+# démo : notifications
 
 
 
