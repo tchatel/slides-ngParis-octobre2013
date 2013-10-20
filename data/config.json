@@ -1,0 +1,14 @@
+{
+    "title": "Meetup ngParis",
+    "sections": [
+
+        {"file": "data/services/slides.md"},
+        {}
+
+    ],
+    "all": [
+        {"file": "data/services/slides.md"},
+        {"file": "data/scope-isole-directives/slides.md"},
+        {}
+    ]
+}
