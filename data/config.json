@@ -2,7 +2,6 @@
     "title": "Meetup ngParis",
     "sections": [
 
-        {"file": "data/slides.md"},
         {"file": "data/services/slides.md"},
         {"file": "data/scope-isole-directives/slides.md"},
 

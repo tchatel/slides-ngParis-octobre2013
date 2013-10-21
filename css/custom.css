@@ -3,6 +3,7 @@
 .red { color: red; }
 .blue { color: blue; }
 .green { color: green; }
+.grey { color: #555; }
 
 div.slide-content table td {
     padding: 0.1em 1em 0.1em 1em;

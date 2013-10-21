@@ -44,6 +44,9 @@
 ### instanciation si nécessaire
 
 
+!SLIDE image ===================================================
+
+![](frangular.png)
 
 
 !SLIDE subsection ===================================================
@@ -128,13 +131,13 @@ TODO
 !SLIDE ===================================================
 
 # $http
-# &
+# <span class="grey">&</span>
 # $httpBackend
 
 !SLIDE ===================================================
 
 # $route
-# &
+# <span class="grey">&</span>
 # $location
 
 !SLIDE bullets ===================================================
@@ -164,7 +167,7 @@ TODO
 <br/>
 ## Jamais de logique ou de
 ## règle métier dans les
-## contrôleurs et les vues.
+## contrôleurs et les templates.
 ### Faire un service.
 
 !SLIDE regle ===================================================
