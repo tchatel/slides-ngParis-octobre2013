@@ -211,25 +211,36 @@
         ...
     }
 
-!SLIDE bullets ===================================================
+!SLIDE big ===================================================
 
 # attribut texte (<span class="bigger red">@</span>)
 
-* `attrs.xxx`
-* `attrs.$observe('xxx', function(value) {...})`
+    attrs.xxx
 
-!SLIDE bullets ===================================================
+<br/>
+
+    attrs.$observe('xxx', function(value) {
+        ...
+    });
+
+!SLIDE big ===================================================
 
 # expression valeur (<span class="bigger red">=</span>)
 
-* `scope.$watch(attrs.xxx, function(newVal, oldVal) {...})`
-* `$parse(attrs.xxx).assign(scope, value)`
+    scope.$watch(attrs.xxx,
+                function(newVal, oldVal) {
+        ...
+    });
 
-!SLIDE bullets ===================================================
+<br/>
+
+    $parse(attrs.xxx).assign(scope, value);
+
+!SLIDE big ===================================================
 
 # expression action (<span class="bigger red">&</span>)
 
-* `$parse(attrs.xxx)(scope, locals)`
+    $parse(attrs.xxx)(scope, locals)
 
 
 

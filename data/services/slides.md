@@ -22,19 +22,21 @@
 
 !SLIDE subsection ===================================================
 
-# Qu'est-ce qu'un service ?
+# qu'est-ce qu'un service ?
 
 !SLIDE bullets big ===================================================
 
-## un service =
-
 * nom
+
+![](etiquette.png)
+
 * singleton
 
 !SLIDE ===================================================
 
-# toujours le même objet /
-# la même valeur primitive
+# même objet
+# /
+# même valeur primitive
 
 !SLIDE ===================================================
 
@@ -46,13 +48,13 @@
 
 !SLIDE subsection ===================================================
 
-# Que mettre en service ?
+# que mettre en service ?
 
 
 !SLIDE bullets  ===================================================
 
 * tout le code métier
-* tout le code de présentation
+* le code de présentation
 * les requêtes
 * le modèle
 * etc.
@@ -79,6 +81,7 @@
 !SLIDE ===================================================
 
 # ex : cache des critères
+# ex : notifications
 
 !NOTES -----------------------------------------------------
 
@@ -120,15 +123,19 @@ TODO
 
 !SLIDE subsection ===================================================
 
-# Découper les services
+# découper les services
 
 !SLIDE ===================================================
 
-# $http & $httpBackend
+# $http
+# &
+# $httpBackend
 
 !SLIDE ===================================================
 
-# $route & $location
+# $route
+# &
+# $location
 
 !SLIDE bullets ===================================================
 
@@ -165,7 +172,7 @@ TODO
 # Règle n°2
 <br/>
 ## Oublier les événements !
-### Préférer les services dans 99,9 % des cas.
+### Faire un service.
 
 !SLIDE regle ===================================================
 
@@ -193,7 +200,7 @@ TODO
 
 !SLIDE subsection ===================================================
 
-# Question de noob
+# question de noob
 
 !SLIDE big ===================================================
 
@@ -213,7 +220,7 @@ TODO
 
 !SLIDE subsection small ===================================================
 
-# Exemple 1 : cache des critères de recherche
+# exemple 1 : cache des critères de recherche
 
 !SLIDE big ===================================================
 
@@ -242,7 +249,7 @@ TODO
 
 !SLIDE subsection ===================================================
 
-# Exemple 2 : utilisateur connecté
+# exemple 2 : utilisateur connecté
 
 !SLIDE big ===================================================
 
@@ -251,7 +258,7 @@ TODO
 ### données
 
     profile:  {
-        firstame: "Thierry",
+        firstname: "Thierry",
         lastname: "Chatel"
     }
 
@@ -280,7 +287,7 @@ TODO
 
 !SLIDE subsection ============================================
 
-# Exemple 3 : entités persistentes
+# exemple 3 : entités persistentes
 
 !SLIDE ============================================
 
@@ -302,7 +309,7 @@ TODO et aussi EntityHome ?
 
 !SLIDE subsection ============================================
 
-# Exemple 4 : erreurs et notifications
+# exemple 4 : erreurs et notifications
 
 !SLIDE bullets ===================================================
 
