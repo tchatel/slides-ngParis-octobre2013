@@ -19,6 +19,30 @@
 
 
 
+!SLIDE subsection ===================================================
+
+# définitions
+
+!SLIDE ===================================================
+
+![](scopes.png)
+
+!SLIDE ===================================================
+
+    <body ng-app="app" ng-controller="AppCtrl">
+      <div ng-controller="HeaderCtrl">
+        ...
+      </div>
+
+      <ng-view></ng-view>
+
+      <div ng-controller="FooterCtrl">
+         ...
+      </div>
+    </body>
+
+
+
 !SLIDE ===================================================
 
 # scope et attributs
@@ -33,9 +57,9 @@
 
 !SLIDE bullets big ===================================================
 
-* rien
-* scope enfant
-* scope isolé
+* <span class="blue">false</span> : rien
+* <span class="blue">true</span> : scope enfant
+* <span class="blue">{...}</span> : scope isolé
 
 !SLIDE ===================================================
 
