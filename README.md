@@ -1,0 +1,1 @@
+Mes slides du Meetup ngParis (AngularJS) chez Google le 21 octobre 2013.
